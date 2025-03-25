@@ -8,7 +8,7 @@ function App() {
       <div>
         <h2 className="6xl font-[600] text-center ">Contact Form</h2>
         <div className="w-full md:w-1/2 rounded-lg shadow mx-auto">
-        <form action="#" className="mx-auto " method="POST" data-netlify="true" name="vite-form">
+        <form className="mx-auto " method="POST" data-netlify="true" name="vite-form">
           <div className="flex flex-col gap-1 items-start">
             <label>First Name</label>
             <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" />
